@@ -97,10 +97,12 @@ body {
     margin-left: 33px;
 }
 .duration-title, .format-title {
+    margin-top: 18px;
     font-size: 8px;
     top: 8px;
 }
 .duration-subtitle, .format-subtitle {
+    margin-top: 5px;
     font-size: 15px;
     top: 17px;
     text-transform: uppercase;
@@ -110,7 +112,7 @@ body {
 /* ---- hero wrapper ----- */
 
 .hero-wrapper {
-    height: 400px;
+    height: 470px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -128,7 +130,7 @@ body {
 }
 .hero .instagram .subscribers span {
     background-color: rgba(255, 120, 152, 1);
-    padding: 2px 13px;
+    padding: 2px 15px;
     text-align: center;
     border-radius: 100px;
     font-family: 'Montserrat';
@@ -147,17 +149,26 @@ body {
     border-radius: 100px;
     text-decoration: none;
     color: white;
-    padding: 10px 23px;
+    padding: 10px 30px;
     position: absolute;
-    top: 20px;
+    top: 21px;
     left: 50%;
     transform: translateX(-50%);
 }
 .hero h1 {
+    margin: 15px 0 0 0;
     font-family: 'ALS Klementina';
     font-size: 48px;
+    line-height: 46.57px;
     font-weight: 400;
     text-align: center;
+}
+.hero-subtitle {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 20px 0 0 0;
 }
 
 /* ---- result wrapper ---- */
@@ -169,7 +180,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 300px;
-    margin: 50px auto 0;
+    margin: 48px auto 0;
 }
 .results-wrapper h2 {
     font-family: 'Bebas Neue', sans-serif;
@@ -186,7 +197,6 @@ body {
 }
 .result-item {
     width: 100%;
-    height: 171px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -220,7 +230,7 @@ body {
     /* letter-spacing: 0.04rem; */
     transform: translateY(-15%);
     text-align: center;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 .result-icon {
     position: relative;
@@ -233,7 +243,7 @@ body {
 }
 .dots {
     display: flex;
-    margin-top: 25px;
+    margin-top: 22px;
     justify-content: center;
     gap: 0 7px;
 }
@@ -247,7 +257,9 @@ body {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 14px;
+    line-height: 20px;
     text-align: center;
+    margin-top: 18px;
 }
 .result-btn {
     padding: 10px 20px;
@@ -262,21 +274,23 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
+    line-height: 1;
     background: linear-gradient(111.7deg, #585858 0.34%, #F5F5F5 31.52%, #DBDBDB 60.77%, #605F5F 92.43%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-size: 40px;
     text-align: center;
-    margin: 10px 0 0 0
+    margin: 41px 0 0 0
 }
 .salon-desc {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 14px;
+    line-height: 20px;
     text-align: center;
     width: 337px;
-    margin: 0 auto;
+    margin: 18px auto 0;
 }
 .salon-image {
     position: relative;
@@ -284,7 +298,7 @@ body {
     display: flex;
     justify-content: center;
     width: 336px;
-    margin: 20px auto 0;
+    margin: 25px auto 0;
 }
 .salon-image .access {
     position: absolute;
@@ -314,11 +328,16 @@ body {
 }
 .salon-btn {
     background-color: #FF7898;
-    padding: 20px 40px;
+    padding: 26px 39px;
     border-radius: 9px;
     display: block;
-    margin: 20px auto 0;
+    margin: 29px auto 0;
     align-items: center;
+
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
 }
 
 /* ---- course wrapper ---- */
@@ -332,19 +351,26 @@ body {
     background-clip: text;
     font-size: 40px;
     text-align: center;
-    margin: 10px 0 0 0
+    margin: 48px 0 0 0
 }
 .course-cards {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 20px;
 }
 .course-card {
     width: 337px;
     height: 194px;
     position: relative;
-    margin: 0 auto;
+    margin: 9px auto;
+}
+.course-card:nth-of-type(3) .course-card-desc {
+    height: 173px;
+    bottom: -16px;
+}
+.course-card:nth-of-type(3) .course-card-desc span {
+    transform: translateY(7px);
+    letter-spacing: 0.05rem;
 }
 .course-card-number {
     width: 69px;
@@ -377,6 +403,9 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.04rem;
 }
 
 /* --- study wrapper --- */
@@ -391,17 +420,18 @@ body {
     background-clip: text;
     font-size: 40px;
     text-align: center;
-    margin: 10px 0 0 0
+    margin: 50px 0 0 0
 }
 .study-list {
-    width: 275px;
+    width: 295px;
     background: linear-gradient(52.7deg, #1F1F1F 8.37%, #2D2D2D 81.06%);
     border: 1px solid #7B7B7B;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 15px auto 0;
     position: relative;
     border-radius: 10px;
-    padding: 25px 30px;
+    padding: 35px 20px;
+    
 }
 .study-list::after {
     position: absolute;
@@ -415,11 +445,13 @@ body {
     top: 10px;
 }
 .study-list li {
+    margin-left: 10px;
+    padding-inline-start: 6px;
     list-style-image: url(../icons/dot-li.svg);
     list-style-position: outside;
 }
  li +  li {
-    margin-top: 20px;
+    margin-top: 13px;
 }
 
 
@@ -436,25 +468,32 @@ body {
     background-clip: text;
     font-size: 40px;
     text-align: center;
-    margin: 10px 0 0 0
+    margin: 56px 0 0 0;
+    line-height: 1;
 }
 .how-ed-list {
     position: relative;
     padding: 0;
     width: 350px;
-    margin: 0 auto;
+    margin: 22px auto 0;
 }
 .how-ed-list li {
     padding: 0 30px;
-    width: 302px;
+    width: 100%;
     list-style-image: none;
     list-style-type: none;
     background: url(../icons/dot-how-ed-svg.svg) no-repeat 0 2px;
     align-items: center;
     position: relative;
+    line-height: 20px;
+}
+.how-ed-list li + li {
+    margin-top: 16px;
 }
 .how-ed-list li:nth-of-type(6) {
     background: url(../icons/star-icon.svg) no-repeat 3px 2px !important;
+    margin-top: 28px;
+    color: rgba(255, 240, 159, 1);
 }
 .how-ed-list li::marker {
     position: absolute;
@@ -462,14 +501,14 @@ body {
     left: 0;
 }
 .how-ed-wrapper img {
-    margin: 20px 0 0 60%;
+    margin: 45px 0 0 60%;
     transform: translateX(-50%);
 }
 .help-banner {
     width: 337px;
     height: 137px;
     position: relative;
-    top: -75px;
+    top: -120px;
     margin: 0 auto;
 }
 .help-icon {
@@ -504,7 +543,9 @@ body {
     width: 100%;
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.04rem;
     color: #141414;
     text-align: center;
 }
@@ -521,10 +562,10 @@ body {
     background-clip: text;
     font-size: 40px;
     text-align: center;
-    margin: 10px 0 0 0
+    margin: -72px 0 0 0
 }
 .price-banner {
-    margin: 0 auto;
+    margin: 16px auto 0;
     width: 335px;
     height: 198px;
     background: linear-gradient(52.7deg, #1F1F1F 8.37%, #2D2D2D 81.06%);
@@ -537,9 +578,9 @@ body {
     font-family: 'Bebas Neue';
     font-weight: 700;
     font-size: 40px;
-    text-transform: uppercase;
     color: #AAAAAA;
     text-align: center;
+    top: -10px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -554,25 +595,30 @@ body {
     left: 0;
 }
 .new-price {
+    margin: 0;
     position: absolute;
-    left: 15px;
+    top: 71px;
+    left: 35px;
     font-family: 'Bebas Neue';
-    font-weight: 700;
+    font-weight: 400;
     font-size: 100px;
-    text-transform: uppercase;
     background: linear-gradient(63.77deg, #FF7898 28.74%, #FFB3C0 107.82%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 .cost-btn {
-    padding: 25px 38px;
+    padding: 25px 40px;
     border-radius: 10px;
     background-color: #FF7898;
     align-items: center;
     text-transform: uppercase;
     display: block;
-    margin: 20px auto;
+    margin: 30px auto 0;
+
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
 }
 
 /* ---- works wrapper ---- */
@@ -592,7 +638,7 @@ body {
     background-clip: text;
     font-size: 40px;
     text-align: center;
-    margin: 10px 0 0 0
+    margin: 45px 0 0 0
 }
 
 /* slider */
@@ -635,10 +681,17 @@ body {
     background-clip: text;
     font-size: 40px;
     text-align: center;
-    margin: 10px 0 0 0
+    margin: 45px 0 0 0
+}
+.contacts-menu {
+    margin: 19px 0 0 5px;
 }
 .contacts-menu li {
+    letter-spacing: 0.03rem;
     list-style-type: none;
+}
+.contacts-menu li + li {
+    margin-top: 5px;
 }
 .contacts-menu li a {
     text-decoration: none;
@@ -648,10 +701,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 20px auto;
+    margin: 28px auto;
     width: 337px;
 
 }
 .policy a {
     color: #8B8B8B;
+}
+.policy a + a {
+    margin-top: 4px;
 }
