@@ -2,6 +2,10 @@
     font-family: 'Bebas Neue';
     src: url(../fonts/ofont.ru_Bebas\ Neue.ttf);
 }
+@font-face {
+    font-family: 'ALS Klementina';
+    src: url(../fonts/ALS_Klementina.ttf);
+}
 html {
     scroll-behavior: smooth;
 }
