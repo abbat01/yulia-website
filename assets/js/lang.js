@@ -24,7 +24,7 @@ const langArr = {
         ua: 'online',
     },
     heroTitle: {
-        ru: 'Юлиана Груноковская',
+        ru: 'Юлиана<br> Груноковская',
         ua: 'Юліана<br> Грунковська',
     },
     heroSubtitle: {
