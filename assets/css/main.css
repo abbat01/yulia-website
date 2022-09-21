@@ -112,6 +112,49 @@ body {
 }
 
 
+.lang-bar {
+    max-width: 300px;
+    margin: 0 auto; 
+    position: relative;
+}
+.lang-bar select {
+    background-color: transparent;
+    color: white;
+    padding: 17px 0 0 10px;
+    width: 44px;
+    height: 44px;
+    border: 2px solid #292929;
+    font-size: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    border-radius: 10px;
+  }
+  
+  .lang-bar select option {
+    padding: 30px;
+  }
+  .lang-bar::before {
+    content: "⟩";
+    font-family: FontAwesome;
+    position: absolute;
+    transform: rotate(90deg);
+    top: -8px;
+    left: 7px;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+    transition: 0.3s ease;
+  }
+  
+  .lang-bar:hover::before {
+    top: -5px;
+  }
 /* ---- hero wrapper ----- */
 
 .hero-wrapper {
@@ -717,7 +760,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 28px 0 0 45px;
+    margin: 28px 0 50px 45px;
     width: 337px;
 
 }
