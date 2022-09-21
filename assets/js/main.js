@@ -45,3 +45,11 @@ const swiper = new Swiper('.swiper', {
   }
 
   changeLang()
+
+
+  /* --- preloader --- */
+
+    let loader = document.querySelector('.loader');
+  window.addEventListener('load', () => {
+    loader.classList.add('hide')
+  });
