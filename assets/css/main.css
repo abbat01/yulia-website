@@ -16,7 +16,7 @@ html {
     font-family: 'Manrope', sans-serif;
 }
 body {
-    background-color: #121212;
+    background-color: #000000;
     color: white;
     margin: 0 auto;
 }
@@ -165,6 +165,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    background-image: url(../images/);
 }
 .hero .instagram {
     height: 61px;
@@ -386,6 +387,12 @@ body {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.08rem;
+    
+    color: #FFFFFF;
+}
+.salon-btn img {
+    transform: translateY(3px);
+    color: white;
 }
 
 /* ---- course wrapper ---- */
@@ -633,8 +640,9 @@ body {
     transform: translateX(-50%);
 }
 .old-price span {
-    font-size: 20px;
     font-weight: 700;
+
+    font-family: 'Bebas Neue';
 }
 .old-price::after {
     content: "";
@@ -660,8 +668,11 @@ body {
     text-transform: uppercase;
 }
 .new-price span {
-    font-size: 50px;
+    font-size: 90px;
     font-weight: 700;
+    text-transform: uppercase;
+
+    font-family: 'Bebas Neue';
 }
 .cost-btn {
     padding: 25px 40px;
@@ -676,6 +687,11 @@ body {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.08rem;
+
+    
+}
+.cost-btn img {
+    transform: translateY(3px);
 }
 
 /* ---- works wrapper ---- */
@@ -701,17 +717,19 @@ body {
 /* slider */
 
 .swiper {
-    width: 337px;
+    width: 357px;
     height: 428px;
     margin: 20px auto;
 }
 .swiper-wrapper {
     width: 337px !important;
     position: relative;
+    gap: 20px;
 }
 .swiper-slide {
     width: 337px !important;
     border: 9px;
+    left: 5px;
 }
 .swiper-button-prev, .swiper-button-next {
     width: 56px;
