@@ -59,6 +59,10 @@ const langArr = {
         ru: 'Доступ к курсу:',
         ua: 'Доступ до курсу:',
     },
+    salonDays: {
+        ru: '60 дней',
+        ua: '60 днів',
+    },
     salonBtn: {
         ru: 'ПРИНЯТЬ УЧАСТИЕ <img src="./assets/icons/touch-screen.png" alt="" width="17px" height="17px" color="white">',
         ua: 'Прийняти участь <img src="./assets/icons/touch-screen.png" alt="" width="17px" height="17px">',

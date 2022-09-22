@@ -19,16 +19,21 @@ body {
     background-color: #000000;
     color: white;
     margin: 0 auto;
-}
-.main {
     background-image: url(../images/back-image.png);
     background-repeat: no-repeat;
     background-position: top center;
+}
+.main {
+    background-image: url(../images/yuli-image.png);
+    background-repeat: no-repeat;
+    background-position: 50% 2%;
+    background-size: 428px 706px;
     overflow: hidden;
 }
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    position: relative;
 }
 .none {
     display: none;
@@ -39,6 +44,7 @@ body {
     border: none;
     color: white;
     text-align: center;
+    text-transform: uppercase;
 }
 .start-course {
     color: white;
@@ -60,6 +66,7 @@ body {
     display: flex;
     max-width: 428px;
     margin: 0 auto;
+    position: relative;
 }
 .start-number {
     position: absolute;
@@ -115,9 +122,10 @@ body {
 
 
 .lang-bar {
-    max-width: 300px;
-    margin: 0 auto; 
-    position: relative;
+    width: 50px;
+    position: absolute;
+    left: 70px;
+    top: 96px;
 }
 .lang-bar select {
     background-color: transparent;
@@ -143,7 +151,7 @@ body {
     position: absolute;
     transform: rotate(90deg);
     top: -8px;
-    left: 7px;
+    left: 20px;
     width: 10%;
     height: 100%;
     text-align: center;
@@ -165,7 +173,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url(../images/);
+    flex-wrap: wrap;
 }
 .hero .instagram {
     height: 61px;
@@ -315,6 +323,7 @@ body {
     background-color: #FF7898;
     display: block;
     margin: 0 auto;
+    text-transform:none;
 }
 
 /* --- salon wrapper --- */
@@ -377,7 +386,7 @@ body {
 }
 .salon-btn {
     background-color: #FF7898;
-    padding: 26px 39px;
+    padding: 23px 39px 28px;
     border-radius: 9px;
     display: block;
     margin: 29px auto 0;
@@ -565,6 +574,7 @@ body {
     position: relative;
     top: -120px;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 .help-icon {
     background-color: #FF7898;
@@ -675,7 +685,7 @@ body {
     font-family: 'Bebas Neue';
 }
 .cost-btn {
-    padding: 25px 40px;
+    padding: 23px 40px 28px;
     border-radius: 10px;
     background-color: #FF7898;
     align-items: center;
@@ -729,7 +739,7 @@ body {
 .swiper-slide {
     width: 337px !important;
     border: 9px;
-    left: 5px;
+    left: 10px;
 }
 .swiper-button-prev, .swiper-button-next {
     width: 56px;
