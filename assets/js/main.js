@@ -31,7 +31,7 @@ const swiper = new Swiper('.swiper', {
     hash = hash.substring(1);
     console.log(hash)
     if (!allLang.includes(hash)) {
-        location.href = window.location.pathname + '#ru';
+        location.href = window.location.pathname + '#ua';
         location.reload();
     }
     select.value = hash
