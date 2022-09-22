@@ -19,15 +19,13 @@ body {
     background-color: #000000;
     color: white;
     margin: 0 auto;
-    background-image: url(../images/back-image.png);
-    background-repeat: no-repeat;
-    background-position: top center;
+
 }
 .main {
-    background-image: url(../images/yuli-image.png);
+    background-image: url(../images/back-image.png);
     background-repeat: no-repeat;
-    background-position: 50% 2%;
-    background-size: 428px 706px;
+    background-size: 428px ;
+    background-position: top center;
     overflow: hidden;
 }
 .container {
@@ -323,7 +321,7 @@ body {
     padding: 10px 20px;
     background-color: #FF7898;
     display: block;
-    margin: 0 auto;
+    margin: 48px auto 0;
     text-transform:none;
 }
 
@@ -340,7 +338,7 @@ body {
     background-clip: text;
     font-size: 40px;
     text-align: center;
-    margin: 41px 0 0 0
+    margin: 17px 0 0 0
 }
 .salon-desc {
     font-family: 'Montserrat';
@@ -358,11 +356,17 @@ body {
     justify-content: center;
     width: 336px;
     margin: 25px auto 0;
+    border-radius: 10px;
+}
+.salon-image img {
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
 }
 .salon-image .access {
     position: absolute;
     bottom: -30px;
     left: -12px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .salon-desc-title, .salon-desc-subtitle {
@@ -669,7 +673,7 @@ body {
     margin: 0;
     position: absolute;
     top: 71px;
-    left: 35px;
+    left: 21px;
     font-family: 'Bebas Neue';
     font-weight: 400;
     font-size: 100px;
