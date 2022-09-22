@@ -126,6 +126,7 @@ body {
     position: absolute;
     left: 70px;
     top: 96px;
+    z-index: 1000;
 }
 .lang-bar select {
     background-color: transparent;
