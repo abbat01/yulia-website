@@ -38,11 +38,15 @@ body {
 }
 .button {
     border-radius: 100px;
+    position: relative;
     outline: none;
     border: none;
     color: white;
     text-align: center;
     text-transform: uppercase;
+}
+.button:hover {
+    top: 1px;
 }
 .start-course {
     color: white;
