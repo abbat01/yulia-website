@@ -64,8 +64,8 @@ const langArr = {
         ua: '60 днів',
     },
     salonBtn: {
-        ru: 'ПРИНЯТЬ УЧАСТИЕ <img src="./assets/icons/touch-screen.png" alt="" width="17px" height="17px" color="white">',
-        ua: 'Прийняти участь <img src="./assets/icons/touch-screen.png" alt="" width="17px" height="17px">',
+        ru: 'ПРИНЯТЬ УЧАСТИЕ <img src="./assets/icons/touch-screen.png" alt="finger-icon" width="17px" height="17px" color="white">',
+        ua: 'Прийняти участь <img src="./assets/icons/touch-screen.png" alt="finger-icon" width="17px" height="17px">',
     },
     courseTitle: {
         ru: 'КОМУ ПОДОЙДЁТ КУРС?',
@@ -188,8 +188,8 @@ const langArr = {
         ua: 'Вартість навчання',
     },
     costBtn: {
-        ru: 'приобрести курс <img src="./assets/icons/touch-screen.png" width="17px" height="17px" alt="" color="white">',
-        ua: 'Придбати курс <img src="./assets/icons/touch-screen.png" width="17px" height="17px" alt="" color="white">',
+        ru: 'приобрести курс <img src="./assets/icons/touch-screen.png" width="17px" height="17px" alt="finger-icon" color="white">',
+        ua: 'Придбати курс <img src="./assets/icons/touch-screen.png" width="17px" height="17px" alt="finger-icon" color="white">',
     },
     worksTitle: {
         ru: 'Примеры работ',
